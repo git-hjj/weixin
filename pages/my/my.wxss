@@ -1,0 +1,14 @@
+.avatar{
+  background-color: #1AAD19;
+  height: 400rpx;
+}
+.avatar image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;  
+  border: 8rpx solid rgba(1,1,1,.1);
+}
+
+page{
+  background-color: #f1f1f1;
+}

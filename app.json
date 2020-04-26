@@ -1,0 +1,49 @@
+{
+  "pages": [
+     "pages/index/index", 
+     "pages/message/message",
+     "pages/my/my",
+     "pages/shopList/shopList",
+     "pages/logs/logs",
+     "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1AAD19",
+    "navigationBarTitleText": "本地宝",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+     "color":"#ccc",
+     "selectedcolor":"#1AAD19",
+      "borderStyle":"white",
+       "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "asset/icon/home.png",
+      "selectedIconPath": "asset/icon/home1.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "asset/icon/message.png",
+      "selectedIconPath": "asset/icon/message1.png"
+    },
+     {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "asset/icon/my.png",
+      "selectedIconPath": "asset/icon/my1.png"
+    },
+    {
+      "pagePath": "pages/shopList/shopList",
+      "text": "大杂烩",
+      "iconPath": "asset/icon/tel.png",
+      "selectedIconPath": "asset/icon/tel1.png"
+    }]
+  }
+}

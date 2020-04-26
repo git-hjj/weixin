@@ -1,0 +1,22 @@
+<!--pages/message/message.wxml-->
+<view class="card">
+	<text class="card-title">标题1</text>
+	<text class="card-time">2020-04-15</text>
+	<image class="card-img" src="//imgservice.suning.cn/uimg1/b2c/atmosphere/adTl6ZwjNq-ayQydJPV9Hg.jpg?format=_is_300w_300h_4e.webp" mode="aspectFill"></image>
+	<text class="card-desc">越努力越幸运</text>
+	<text class="card-read arrow">查看详情</text>
+</view>
+<view class="card">
+	<text class="card-title">标题1</text>
+	<text class="card-time">2020-04-15</text>
+	<image class="card-img" src="//imgservice.suning.cn/uimg1/b2c/atmosphere/adTl6ZwjNq-ayQydJPV9Hg.jpg?format=_is_300w_300h_4e.webp" mode="aspectFill"></image>
+	<text class="card-desc">越努力越幸运</text>
+	<text class="card-read arrow">查看详情</text>
+</view>
+<view class="card">
+	<text class="card-title">标题1</text>
+	<text class="card-time">2020-04-15</text>
+	<image class="card-img" src="//imgservice.suning.cn/uimg1/b2c/atmosphere/adTl6ZwjNq-ayQydJPV9Hg.jpg?format=_is_300w_300h_4e.webp" mode="aspectFill"></image>
+	<text class="card-desc">越努力越幸运</text>
+	<text class="card-read arrow">查看详情</text>
+</view>

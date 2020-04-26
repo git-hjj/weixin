@@ -1,0 +1,63 @@
+<view class="slider">
+  <!-- <image mode="aspectFill" src="//image.suning.cn/uimg/aps/material/158649976877384615.jpg?format=_is_1242w_610h"></image> -->
+    <swiper indicator-dots="true"
+        autoplay="true" interval="5000" duration="400" circular>
+        <block wx:for="{{shopList}}" wx:key="id">
+          <swiper-item>
+            <image mode="aspectFill" src="{{item.image}}"  ></image>
+           </swiper-item>
+          </block>
+         <!-- <swiper-item>
+            <image mode="aspectFill" src="https://image2.suning.cn/uimg/cms/img/158684621322947945.jpg?format=_is_1242w_610h"  ></image>
+          </swiper-item> -->
+      </swiper>
+</view><!--图片mode模式，宽高必须设置 如果手机上看不到网络图片 lazy-load-->
+<view class="index-nav">
+ <navigator class="nav-item bdr" wx:for="{{navList}}" wx:key="id" url='/pages/shopList/shopList?cat={{item.id}}&title={{item.name}}' open-type="reLaunch">
+  <image src="{{item.icon}}" ></image>
+  <text>{{item.name}}</text>
+ </navigator>
+<!--   <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>
+  <navigator class="nav-item bdr">
+  <image src="/asset/img/icon.png"></image>
+  <text>美食</text>
+ </navigator>-->
+</view>
+<view class="divider"></view>
+<view class="index-enter">
+  <navigator class="enter-item">
+    <image src="/asset/img/timg.jpg"></image>
+  
+ </navigator>
+ <navigator class="enter-item">
+    <image src="/asset/img/timg1.jpg"></image> 
+ </navigator> 
+</view>
+ 

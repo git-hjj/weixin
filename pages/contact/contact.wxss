@@ -1,0 +1,3 @@
+.checkbox,.radio{
+  margin-right: 15rpx;
+}

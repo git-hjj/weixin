@@ -1,0 +1,87 @@
+<view class="shop" wx:for="{{ shopList }}" wx:key="id">
+	<image class="shop-image" src="{{item.images[0]}}"></image>
+	<view class="shop-info">
+		<text class="shop-title ell">{{ item.name }}</text>
+		<text class="shop-tel">电话：{{ item.phone }}</text>
+		<text class="shop-address">地址：{{ item.address }}</text>
+		<text class="shop-date">营业时间：{{ item.businessHours }}</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:{{item.score}}%">★★★★★</view>
+	  </view>
+</view>
+  <view wx:if="{{ hasMore }}" class="loadmore loading">正在加载...</view>
+    <view wx:else class="loadmore">你已经到达我的底线了！</view>   
+       
+<!-- <view class="shop">
+	<image class="shop-image" src="https://p0.meituan.net/deal/__45641388__3758500.jpg@80w_80h_1e_1c"></image>
+	<view class="shop-info">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-tel">电话：0557-1234567</text>
+		<text class="shop-address">地址：雨花台绿地之窗D栋1楼111</text>
+		<text class="shop-date">营业时间：10:00-22:00</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:50%;">★★★★★</view>
+	  </view>
+</view>
+<view class="shop">
+	<image class="shop-image" src="https://img.meituan.net/msmerchant/d2fa4169f57277c70d574308269ccbb81031436.jpg@80w_80h_1e_1c"></image>
+	<view class="shop-info">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-tel">电话：0557-1234567</text>
+		<text class="shop-address">地址：雨花台绿地之窗D栋1楼111</text>
+		<text class="shop-date">营业时间：10:00-22:00</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:50%;">★★★★★</view>
+	  </view>
+</view>
+<view class="shop">
+	<image class="shop-image" src="https://img.meituan.net/msmerchant/69aeb2ccf9f0c18a325cf3a0392dca9584876.jpg@80w_80h_1e_1c"></image>
+	<view class="shop-info">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-tel">电话：0557-1234567</text>
+		<text class="shop-address">地址：雨花台绿地之窗D栋1楼111</text>
+		<text class="shop-date">营业时间：10:00-22:00</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:50%;">★★★★★</view>
+	  </view>
+</view>
+<view class="shop">
+	<image class="shop-image" src="https://p1.meituan.net/bbia/d57fc10e0b12982e22368c115f30e666152066.jpg@80w_80h_1e_1c"></image>
+	<view class="shop-info">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-tel">电话：0557-1234567</text>
+		<text class="shop-address">地址：雨花台绿地之窗D栋1楼111</text>
+		<text class="shop-date">营业时间：10:00-22:00</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:50%;">★★★★★</view>
+	  </view>
+</view>
+<view class="shop">
+	<image class="shop-image" src="https://p0.meituan.net/180.180/deal/ee8185f5f9a135d9080f01ea6b8f960a30049.jpg@80w_80h_1e_1c"></image>
+	<view class="shop-info">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-tel">电话：0557-1234567</text>
+		<text class="shop-address">地址：雨花台绿地之窗D栋1楼111</text>
+		<text class="shop-date">营业时间：10:00-22:00</text>
+	</view>
+	<view class="shop-star">
+	     <view class="star-after">★★★★★</view>
+	  
+         <view class="star-before" style="width:50%;">★★★★★</view>
+	  </view>
+</view> -->

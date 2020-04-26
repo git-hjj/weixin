@@ -1,0 +1,35 @@
+<view class="avatar center"> 
+ <image src="/asset/img/my.jpg"></image>
+</view>
+<view class="divider"></view>
+<view class="cell">
+  <navigator class="cell-item arrow" url="/pages/contact/contact">
+    <text>个人资料</text>
+  </navigator>
+   <navigator class="cell-item arrow">
+    <text>我的优惠劵</text>
+  </navigator>
+ 
+</view>
+<view class="divider"></view>
+<view class="cell">
+   <navigator class="cell-item arrow">
+    <text>常见问题</text>
+  </navigator>
+   <navigator class="cell-item arrow">
+    <text>使用条款</text>
+  </navigator>
+  <navigator class="cell-item arrow">
+    <text>常见问题</text>
+  </navigator>
+   <navigator class="cell-item arrow">
+    <text>使用条款</text>
+  </navigator>
+</view>
+<view class="divider"></view>
+<view class="cell">
+   <navigator class="cell-item arrow">
+    <text>设置</text>
+  </navigator>
+   
+</view>
